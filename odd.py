@@ -7,6 +7,6 @@ odds = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19,
 right_this_minute = datetime.today().minute
 
 if right_this_minute in odds:
-    print ("ta minuta wydaje się dość nieparzysta")
+    print ("ta minuta wydaje się nieparzysta")
 else:
     print ("minuta parzysta")
